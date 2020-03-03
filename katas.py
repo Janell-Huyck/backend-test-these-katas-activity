@@ -9,7 +9,7 @@ def multiply(x, y):
 
     for _ in range(abs(y)):
         result = add(result, x)
-        
+
     return -result if y < 0 else result
 
 
